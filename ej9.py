@@ -1,0 +1,16 @@
+# Ejercicio 9
+print("Escriba un programa que cree una lista de números enteros que contenga los siguientes números: 6 , 5 , 4 , 2 , 1 , 5. Los numeros se deben ir agregando de a uno a la lista. Luego debe mostrar por pantalla el contenido de la la lista y su tamaño. Finalmente debe eliminar el número 2 de la lista y volver a mostrar su contenido y la cantidad de veces que contiene al numero 2 por pantalla para ver como quedó luego de eliminarlo.\n")
+a = [6]
+print(a)
+a.append(5)
+print(a)
+a.append(4)
+print(a)
+a.append(2)
+print(a)
+a.append(1)
+print(a)
+a.append(5)
+print(a,"\nLongitud de lista:",len(a))
+a.remove(2)
+print(a,"\nCantidad de veces que aparece el 2:",a.count(2))
