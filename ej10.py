@@ -3,4 +3,4 @@ print("Escriba un programa que cree dos listas, una con los números del 1 al 5 
 a = [1,2,3,4,5]
 b = [15,16,17,18,19,20]
 c = a + b
-print(c,"\Longitud de lista:",len(c))
+print(c,"\nLongitud de lista:",len(c))
